@@ -30,7 +30,7 @@ export default function AcneCareAssistantPage() {
             id: 'welcome',
             role: 'assistant',
             content:
-                'สวัสดี! ยินดีต้อนรับสู่ Acne Care Assistant ส่งคำถามหรือรูปภาพเกี่ยวกับสิวเพื่อรับคำแนะนำเบื้องต้นได้เลย'
+                'สวัสดี! ยินดีต้อนรับสู่ Facial Skin Care Assistant ส่งคำถามหรือรูปภาพเกี่ยวกับปัญหาผิวหน้า สภาพผิว หรือต้องการประเมินสภาพผิวหน้าเพื่อรับคำแนะนำได้เลย'
         }
     ]);
     const [input, setInput] = useState('');
@@ -147,7 +147,7 @@ export default function AcneCareAssistantPage() {
                     <ArrowLeft className="h-4 w-4" />
                     Back
                 </Button>
-                <h1 className="text-lg lg:text-2xl font-medium">Acne Care Assistant</h1>
+                <h1 className="text-lg lg:text-2xl font-medium">Facial Skin Care Assistant</h1>
             </div>
             <div
                 ref={chatContainerRef}

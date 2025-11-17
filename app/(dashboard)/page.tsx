@@ -94,9 +94,9 @@ export default function HomePage() {
               <div className="flex items-center justify-center h-14 w-14 rounded-xl bg-orange-500 text-white mb-4">
                 <MessageSquare className="h-7 w-7" />
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Acne Care Assistant</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Facial Skin Care Assistant</h3>
               <p className="text-sm text-gray-600 mb-4">
-                ที่ปรึกษา AI สำหรับปัญหาสิวและดูแลผิวหน้า ส่งรูปภาพเพื่อรับคำแนะนำได้
+                ที่ปรึกษา AI สำหรับการดูแลผิวหน้า ประเมินสภาพผิว และปัญหาผิวหน้าทุกประเภท ส่งรูปภาพเพื่อรับคำแนะนำได้
               </p>
             </div>
             <div className="rounded-xl bg-gradient-to-br from-red-50 to-white p-6 border border-red-100 hover:shadow-lg transition-all hover:scale-105">

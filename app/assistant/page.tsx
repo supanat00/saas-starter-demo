@@ -9,8 +9,8 @@ import { MessageSquare, Heart, BookOpen, Brain, ArrowLeft } from 'lucide-react';
 const assistants = [
     {
         id: 'acne-care',
-        name: 'Acne Care Assistant',
-        description: 'ที่ปรึกษา AI สำหรับปัญหาสิวและดูแลผิวหน้า ส่งรูปภาพเพื่อรับคำแนะนำได้',
+        name: 'Facial Skin Care Assistant',
+        description: 'ที่ปรึกษา AI สำหรับการดูแลผิวหน้า ประเมินสภาพผิว และปัญหาผิวหน้าทุกประเภท ส่งรูปภาพเพื่อรับคำแนะนำได้',
         icon: MessageSquare,
         href: '/assistant/acne-care',
         color: 'bg-orange-500'
