@@ -199,7 +199,7 @@ export default function StudyAssistantPage() {
                                 />
                                 <div className="text-sm text-gray-600">รูปภาพแนบพร้อมส่ง</div>
                             </div>
-                            <Button variant="ghost" size="icon" onClick={clearImage} className="text-gray-700">
+                            <Button variant="ghost" size="icon" onClick={() => clearImage()} className="text-gray-700">
                                 <X className="h-4 w-4" />
                                 <span className="sr-only">ลบรูป</span>
                             </Button>

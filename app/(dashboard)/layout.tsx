@@ -79,12 +79,12 @@ function UserMenu() {
 }
 
 function Header() {
-  const { data: user } = useSWR<User>('/api/user', (url) =>
+  const { data: user } = useSWR<User>('/api/user', (url: string) =>
     fetch(url).then((r) => r.json())
   );
   const { data: team } = useSWR<{ subscriptionStatus?: string | null }>(
     '/api/team',
-    (url) => fetch(url).then((r) => r.json())
+    (url: string) => fetch(url).then((r) => r.json())
   );
   const hasActiveSubscription =
     team?.subscriptionStatus === 'active' || team?.subscriptionStatus === 'trialing';
